@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+using UnityEngine;
+
 
 #if UNITY_2019_1 || UNITY_2019_2 //HDRP 5.x, 6.x
 using UnityEngine.Experimental.Rendering.HDPipeline;
