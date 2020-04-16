@@ -47,6 +47,8 @@ function onClickPlayButton() {
 
   setupVideoPlayer([elementVideo, elementVideoThumb]).then(value => videoPlayer = value);
 
+
+  /*
   // add green button
   const elementBlueButton = document.createElement('button');
   elementBlueButton.id = "blueButton";
@@ -73,6 +75,7 @@ function onClickPlayButton() {
   elementOrangeButton.addEventListener ("click", function() {
     sendClickEvent(videoPlayer, 3);
   });
+  */
 
   // add fullscreen button
   const elementFullscreenButton = document.createElement('img');
